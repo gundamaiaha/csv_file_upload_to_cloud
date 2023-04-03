@@ -1,0 +1,19 @@
+db:
+  url: ${DB_URL}
+  username: ${DB_USER}
+  password: ${DB_PASSWORD}
+
+
+gcp:
+  bucket:
+    name: ${GCP_BUCKET}
+
+aws:
+  s3:
+    accessKey: ${AWS_ACCESS_KEY}
+    secretKey: ${AWS_SECRET_KEY}
+    region: ${AWS_REGION}
+    bucket: ${AWS_S3_BUCKET}
+
+cloud:
+  service: ${cloud-service}
